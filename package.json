@@ -20,7 +20,7 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "react": ">=10"
+    "react": ">=16"
   },
   "husky": {
     "hooks": {
