@@ -16,11 +16,11 @@ yarn add react-text-illuminator
 
 The ReactTextIlluminator component accepts the following props:
 
-| Prop              | Type     | Description                                          | Default Value |
-| ----------------- | -------- | ---------------------------------------------------- | ------------- |
-| `textContent`     | `string` | The text content to be displayed.                    | -             |
-| `highlightedText` | `string` | The text to be highlighted within the `textContent`. | -             |
-| `highlightColor`  | `string` | The background color used for highlighting.          | `"yellow"`    |
+| Prop             | Type     | Description                                          | Default Value |
+| ---------------- | -------- | ---------------------------------------------------- | ------------- |
+| `textContent`    | `string` | The text content to be displayed.                    | -             |
+| `highlightTerm`  | `string` | The text to be highlighted within the `textContent`. | -             |
+| `highlightColor` | `string` | The background color used for highlighting.          | `"yellow"`    |
 
 ## Usage
 
@@ -35,8 +35,8 @@ const App = () => {
     <div>
       <h1>Search Results</h1>
       <ReactTextIlluminator
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        highlightedText="Lorem"
+        textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        highlightTerm="Lorem"
         highlightColor="yellow"
       />
     </div>
