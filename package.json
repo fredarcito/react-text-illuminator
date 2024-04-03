@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,13 +33,13 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "high-light-text-react",
+  "name": "react-text-illuminator",
   "author": "fredarcito",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fredarcito/high-light-text.git"
+    "url": "https://github.com/fredarcito/react-text-illuminator.git"
   },
-  "homepage": "https://github.com/fredarcito/high-light-text",
+  "homepage": "https://github.com/fredarcito/react-text-illuminator",
   "keywords": [
     "react",
     "reactjs",
