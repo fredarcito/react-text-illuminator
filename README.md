@@ -6,6 +6,12 @@ ReactTextIlluminator is a React component designed to highlight specific text wi
 
 You can install the ReactTextIlluminator component via npm:
 
+npm i react-text-illuminator
+
+or via yarn:
+
+yarn add react-text-illuminator
+
 ## Props
 
 The ReactTextIlluminator component accepts the following props:
