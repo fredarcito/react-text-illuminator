@@ -8,7 +8,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=18"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -35,6 +35,26 @@
   },
   "name": "high-light-text",
   "author": "fredarcito",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fredarcito/high-light-text.git"
+  },
+  "homepage": "https://github.com/fredarcito/high-light-text",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "highlighter",
+    "highlight",
+    "text",
+    "words",
+    "matches",
+    "substring",
+    "occurrences",
+    "search",
+    "tool",
+    "keyword"
+  ],
   "module": "dist/high-light-text.esm.js",
   "size-limit": [
     {
