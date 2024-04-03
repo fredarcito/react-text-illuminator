@@ -1,14 +1,14 @@
-# HighlightText Component
+# ReactTextIlluminator
 
-HighlightText is a React component designed to highlight specific text within a larger body of text. It can be useful for indicating search results, highlighting keywords, or emphasizing certain terms.
+ReactTextIlluminator is a React component designed to highlight specific text within a larger body of text. It can be useful for indicating search results, highlighting keywords, or emphasizing certain terms.
 
 ## Installation
 
-You can install the HighlightText component via npm:
+You can install the ReactTextIlluminator component via npm:
 
 ## Props
 
-The HighlightText component accepts the following props:
+The ReactTextIlluminator component accepts the following props:
 
 | Prop              | Type     | Description                                          | Default Value |
 | ----------------- | -------- | ---------------------------------------------------- | ------------- |
@@ -18,17 +18,17 @@ The HighlightText component accepts the following props:
 
 ## Usage
 
-To use the HighlightText component, simply import it into your React application and include it in your JSX markup.
+To use the ReactTextIlluminator component, simply import it into your React application and include it in your JSX markup.
 
 ```jsx
 import React from 'react';
-import HighlightText from '@tu-usuario/highlight-text';
+import ReactTextIlluminator from 'react-text-illuminator';
 
 const App = () => {
   return (
     <div>
       <h1>Search Results</h1>
-      <HighlightText
+      <ReactTextIlluminator
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         highlightedText="Lorem"
         highlightColor="yellow"

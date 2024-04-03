@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface HighlightTextProps {
+interface ReactTextIlluminatorProps {
   textContent: string;
   highlightTerm?: string;
   highlightColor?: string;
 }
 
-const HighlightText: React.FC<HighlightTextProps> = ({
+const ReactTextIlluminator: React.FC<ReactTextIlluminatorProps> = ({
   textContent,
   highlightTerm = '',
   highlightColor = 'yellow',
@@ -43,4 +43,4 @@ const HighlightText: React.FC<HighlightTextProps> = ({
   return <p>{highlight(textContent, highlightTerm)}</p>;
 };
 
-export default HighlightText;
+export default ReactTextIlluminator;
