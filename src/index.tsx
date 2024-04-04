@@ -9,7 +9,7 @@ interface ReactTextIlluminatorProps {
 const ReactTextIlluminator: React.FC<ReactTextIlluminatorProps> = ({
   textContent,
   highlightTerm = '',
-  highlightColor = 'yellow',
+  highlightColor = '#ffff00',
 }) => {
   const highlight = (
     textContent: string,
