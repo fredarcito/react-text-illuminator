@@ -6,11 +6,11 @@ interface ReactTextIlluminatorProps {
   highlightColor?: string;
 }
 
-const ReactTextIlluminator: React.FC<ReactTextIlluminatorProps> = ({
+export default function ReactTextIlluminator({
   textContent,
   highlightTerm = '',
   highlightColor = '#ffff00',
-}) => {
+}: ReactTextIlluminatorProps): JSX.Element {
   const highlight = (
     textContent: string,
     highlightTerm: string
@@ -41,6 +41,4 @@ const ReactTextIlluminator: React.FC<ReactTextIlluminatorProps> = ({
   };
 
   return <p>{highlight(textContent, highlightTerm)}</p>;
-};
-
-export default ReactTextIlluminator;
+}
