@@ -25,6 +25,7 @@ yarn add react-text-illuminator
 ## Features
 
 - Text Highlighting
+- SEO Friendly
 - Customization of Highlight Term
 - Customization of Highlight Color
 - Support for Complex Text
